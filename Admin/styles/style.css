@@ -1,0 +1,88 @@
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Form container style */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input style */
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Form button style */
+form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Document list container style */
+#documentList {
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+/* Individual document item style */
+#documentList div {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete button style */
+#documentList button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+/* Delete button hover style */
+#documentList button:hover {
+  background-color: #c82333;
+}
+
+table {
+  width: 95%;
+  margin: 0 auto;
+}
+
+td {
+  max-width: 150px;
+  max-height: 100px;
+}
+.img-url {
+  overflow-x: scroll;
+}
+
+.description {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+#cancelBtn {
+  margin-top: 10px;
+}
